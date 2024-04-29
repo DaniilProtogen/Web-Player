@@ -1,0 +1,17 @@
+@media (orientation: portrait) {
+    /* Apply portrait-specific styles here */
+    /* For example: */
+    body {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+
+@media (orientation: landscape) {
+    /* Apply landscape-specific styles here */
+    /* For example: */
+    body {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+}

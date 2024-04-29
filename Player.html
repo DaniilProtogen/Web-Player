@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🎶 Live Mix 🎶</title>
+    <style>
+        body {
+            background-image: url('https://i.imghippo.com/files/pscNz1714198139.gif');
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+            max-width: 1270px;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        .video-container::after {
+            content: "";
+            display: block;
+            padding-bottom: 56.25%;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .icon-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end; /* Align icons to the right */
+            gap: 2px;
+            position: absolute;
+            top: 50%;
+            right: 5px; /* Adjust the distance from the right edge */
+            transform: translateY(-50%);
+        }
+        .icon {
+            width: 50px; /* Customize the icon size */
+            height: 50px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/r2y0uU9l-TM?si=wMGAOAnHSRm42IeC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        <div class="icon-container">
+            <a href="https://www.youtube.com/@DeniProtogen" target="_blank">
+                <img src="https://i.ibb.co/HdV6fL9/001-youtube.png" alt="YouTube" width="45" height="45">
+            </a>
+            <a href="https://www.twitch.tv/deni_protogen" target="_blank">
+                <img src="https://i.ibb.co/wQsTP60/002-twitch.png" width="45" height="45">
+                
+            <a href="https://linktr.ee/Daniil_Protogen" target="_blank">
+                <img src="https://i.ibb.co/ZJCpKMM/003-link.png" width="45" height="45"; 
+            </a>
+        </div>
+    </div>
+</body>
+</html>
